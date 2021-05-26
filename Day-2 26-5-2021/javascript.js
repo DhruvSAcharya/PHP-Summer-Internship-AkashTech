@@ -1,11 +1,9 @@
-function executeCode(){
+function executeFactorial(){
     
-    fetch ("forloop.php")
+    fetch ("factorial.php")
     .then(x => x.text())
-    .then(y => document.getElementById("display").innerHTML = y);
+    .then(y => document.getElementById("display-output-factorial").innerHTML = y);
 
-
-    
 }
 
 function executeCode1(){
@@ -18,8 +16,16 @@ function executeCode1(){
 
 function executeSwich(){
 
-    fetch ("swichstatement.php")
+    fetch ("switchstatement.php")
     .then(x => x.text())
     .then(y => document.getElementById("display-output-swich").innerHTML = y);
+
+}
+
+function executePalindrome(){
+
+    fetch ("palindrome.php")
+    .then(x => x.text())
+    .then(y => document.getElementById("display-output-palindrome").innerHTML = y);
 
 }

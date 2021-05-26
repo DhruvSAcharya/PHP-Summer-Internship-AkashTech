@@ -29,7 +29,7 @@
 
                 
 
-                <!-- program -->
+                <!-- program 1 -->
 
                 <div class="row">
 
@@ -95,7 +95,7 @@ echo "<br>Sum of num1 and num2 is ".($num1+$num2);
 
 
 
-                <!-- program -->
+                <!-- program 2-->
 
                 <div class="row">
 
@@ -104,7 +104,7 @@ echo "<br>Sum of num1 and num2 is ".($num1+$num2);
 
                             <div class="container bg-white m-2 rounded">
                                 
-                                <h3>Program</h3>
+                                <h3>Switch statment</h3>
                                 <!-- php display code -->
             
                                 <?php
@@ -166,7 +166,7 @@ $a = "b";
                 <!-- ens of program -->
 
 
-                <!-- program 1 -->
+                <!-- program 3 -->
 
                 <div class="row">
 
@@ -175,16 +175,21 @@ $a = "b";
 
                             <div class="container bg-white m-2 rounded">
                                 
-                                <h3>Program</h3>
+                                <h3>Factorial</h3>
                                 <!-- php display code -->
             
                                 <?php
 
 
 $code = '<?php 
-for($i=0;$i<10;$i++){
-    echo "$i <br>";
-}
+$num = 5;  
+$factorial = 1;  
+for ($i=1; $i<=$num; $i++)   
+{  
+  $factorial = $factorial * $i;
+  echo $factorial."<br>";  
+}  
+echo "Factorial of $num is $factorial";  
 ?> ';
                 
 
@@ -202,7 +207,7 @@ for($i=0;$i<10;$i++){
 
                     <div class="col-1 d-flex align-items-center justify-content-center">
                         
-                        <button type="button" class="btn btn-light" onclick="executeCode()" >Run</button>
+                        <button type="button" class="btn btn-light" onclick="executeFactorial()" >Run</button>
                         
                     </div>
 
@@ -214,7 +219,74 @@ for($i=0;$i<10;$i++){
                                 
                                 <h3>Output</h3>
                                 <!-- Resule display code -->
-                                <p id="display">
+                                <p id="display-output-factorial">
+                                    Output will display Here
+                                </p>    
+                                
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- end of program -->
+
+
+                <!-- program 4 -->
+
+                <div class="row">
+
+                    <div class="col">
+                        <div class="d-flex justify-content-center">
+
+                            <div class="container bg-white m-2 rounded">
+                                
+                                <h3>Palindrom</h3>
+                                <!-- php display code -->
+            
+                                <?php
+
+
+$code = '<?php 
+$num = 5;  
+$factorial = 1;  
+for ($i=1; $i<=$num; $i++)   
+{  
+  $factorial = $factorial * $i;
+  echo $factorial."<br>";  
+}  
+echo "Factorial of $num is $factorial";  
+?> ';
+                
+
+                                echo '<pre>' . htmlspecialchars($code) . '</pre>';
+
+                                ?>
+
+
+                                
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-1 d-flex align-items-center justify-content-center">
+                        
+                        <button type="button" class="btn btn-light" onclick="executePalindrome()" >Run</button>
+                        
+                    </div>
+
+
+                    <div class="col">
+                        <div class="d-flex justify-content-center">
+
+                            <div class="container bg-white m-2 rounded">
+                                
+                                <h3>Output</h3>
+                                <!-- Resule display code -->
+                                <p id="display-output-palindrome">
                                     Output will display Here
                                 </p>    
                                 
@@ -230,6 +302,9 @@ for($i=0;$i<10;$i++){
                 
 
 
+
+                
+                                
 
 
                 <!-- end of all programs -->
