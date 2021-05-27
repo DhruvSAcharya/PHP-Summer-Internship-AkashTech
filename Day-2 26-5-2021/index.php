@@ -8,7 +8,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="javascript.js">
+   
+   
+
+    </script>
+
+    <script>
+
+
+    </script>
     <title>Day 2 Task</title>
+    
 </head>
 
 <body class="bg-secondary">
@@ -19,7 +30,8 @@
             <!-- header -->
 
             <div class="jumbotron m-1">
-            <h1>Day 2 Task</h1>
+            <h1><b>Day 2 Task</b></h1>
+            <h6></h6>
             </div>
 
 
@@ -248,16 +260,30 @@ echo "Factorial of $num is $factorial";
                                 <?php
 
 
-$code = '<?php 
-$num = 5;  
-$factorial = 1;  
-for ($i=1; $i<=$num; $i++)   
-{  
-  $factorial = $factorial * $i;
-  echo $factorial."<br>";  
-}  
-echo "Factorial of $num is $factorial";  
-?> ';
+$code = '<?php
+function Palindrome($num){
+	$temp = $num;
+	$sum = 0;
+	while (floor($temp)) {
+		$rem = $temp % 10;
+		$sum = $sum * 10 + $rem;
+		$temp = $temp/10;
+	}
+	if ($sum == $num){
+		return 1;
+	}
+	else{
+		return 0;
+	}
+}
+$input = 14541;
+if (Palindrome($input)){
+	echo "Palindrome";
+}
+else {
+echo "Not a Palindrome";
+}
+?>';
                 
 
                                 echo '<pre>' . htmlspecialchars($code) . '</pre>';
@@ -297,7 +323,66 @@ echo "Factorial of $num is $factorial";
 
                 </div>
 
-                <!-- ens of program -->
+                <!-- end of program -->
+
+
+                
+                <!-- program 5 -->
+
+                <div class="row">
+
+                    <div class="col">
+                        <div class="d-flex justify-content-center">
+
+                            <div class="container bg-white m-2 rounded">
+                                
+                                <h3>Fibonacci</h3>
+                                <!-- php display code -->
+            
+                                <?php
+
+
+$code = 'code';
+                
+
+                                echo '<pre>' . htmlspecialchars($code) . '</pre>';
+
+                                ?>
+
+
+                                
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-1 d-flex align-items-center justify-content-center">
+                        
+                        <button onclick="demo()" type="button" class="btn btn-light">Run</button>
+                        
+                    </div>
+
+
+                    <div class="col">
+                        <div class="d-flex justify-content-center">
+
+                            <div class="container bg-white m-2 rounded">
+                                
+                                <h3>Output</h3>
+                                <!-- Resule display code -->
+                                <p id="display-output-fibonacci">
+                                    Output will display Here
+                                </p>    
+                                
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- end of program -->
 
                 
 
@@ -314,12 +399,7 @@ echo "Factorial of $num is $factorial";
         </div>
     </div>
 
-    <script src="javascript.js">
-
-     
-
-
-    </script>
+    
 </body>
 
 </html>

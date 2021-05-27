@@ -29,3 +29,16 @@ function executePalindrome(){
     .then(y => document.getElementById("display-output-palindrome").innerHTML = y);
 
 }
+
+function executeFib(){
+
+    console.log("hello")
+    fetch ("fibonacci.php")
+    .then(x => x.text())
+    .then(y => document.getElementById("display-output-fibonacci").innerHTML = y);
+
+}
+
+function demo(){
+    console.log("demo")
+}
