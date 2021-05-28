@@ -4,7 +4,7 @@
 ![image](https://user-images.githubusercontent.com/73227333/119977097-a01b1200-bfd5-11eb-8057-40308820ecd9.png)
 
 <h3>Task2:</h3>
-![image](https://user-images.githubusercontent.com/73227333/119977573-3ea77300-bfd6-11eb-81d2-e9f96ac26c5b.png)
+![image](https://user-images.githubusercontent.com/73227333/119977573-3ea77300-bfd6-11eb-81d2-e9f96ac26c5b.png) <br>
 ![image](https://user-images.githubusercontent.com/73227333/119977620-4b2bcb80-bfd6-11eb-898a-d24c1af42458.png)
 
 <h3>Task3:</h3>
