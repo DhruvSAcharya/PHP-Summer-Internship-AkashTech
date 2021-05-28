@@ -38,7 +38,3 @@ function executeFib(){
     .then(y => document.getElementById("display-output-fibonacci").innerHTML = y);
 
 }
-
-function demo(){
-    console.log("demo")
-}
