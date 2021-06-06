@@ -9,10 +9,15 @@
 
 <h3>Task3:</h3>
 <img src="https://user-images.githubusercontent.com/73227333/119977674-5bdc4180-bfd6-11eb-90e4-97269d431d06.png">
+
+<h3>Task4:</h3>
+<img src="https://user-images.githubusercontent.com/73227333/120931301-99e01080-c70e-11eb-9b01-1baf34c5f5e1.png">
+
 <h3>Task5:</h3>
 <img src="https://user-images.githubusercontent.com/73227333/120832360-345d1a00-c57e-11eb-9d3a-06edffbd117a.png">
 <h3>Task6:</h3>
 <p>Use Templet to create a personal profile website.</p>
+<img src="https://user-images.githubusercontent.com/73227333/120930294-4b307780-c70a-11eb-9b60-f9170ec1358b.png">
 
 
  
