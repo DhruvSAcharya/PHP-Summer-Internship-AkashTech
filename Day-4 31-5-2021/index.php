@@ -73,9 +73,7 @@
 
         
                                     <p id="code">Code will display here</p>
-                                    <!-- <?php
-                                       //include "displaycode.php";
-                                    ?> -->
+                                   
                                 </div>
 
                                

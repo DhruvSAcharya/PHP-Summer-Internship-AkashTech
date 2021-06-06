@@ -29,15 +29,14 @@ $endtag = '
 
 switch ($functn['type']) {
     case 1:
-        echo '<pre>' . htmlspecialchars($code) .' <input class="form-control-sm" type="text" id="arrayvalue" placeholder="Enter values..."> '.
+        echo '<pre>' . htmlspecialchars($code) .
+            ' <input class="form-control-sm" type="text" id="arrayvalue" placeholder="Enter values..."> '.
              htmlspecialchars($code2_2) .htmlspecialchars($endtag).'</pre>';
         break;
     case 2:
-        echo '<pre>' . htmlspecialchars($code) .' <input class="form-control-sm" type="text" id="arrayvalue" placeholder="Enter values...> '.
+        echo '<pre>' . htmlspecialchars($code) .
+            '  <input class="form-control-sm" type="text" id="arrayvalue" placeholder="Enter values..."> '.
              htmlspecialchars($code2) . htmlspecialchars($code5) . '</pre>';
-        break;
-    case 3:
-        # code...
         break;
     default:
         echo "Error";
