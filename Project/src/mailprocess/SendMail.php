@@ -43,14 +43,18 @@ class SendMail {
 
 
     if($mail->send()){
-      $status = "success";
+      $status = "1";
       $response = "Email is sent";
     }else{
-      $status = "faild";
+      $status = "0";
       $response = "Something is wrong".$mail->ErrorInfo;
     }
-
-    //echo "status: ". $status. " <br> Result: ". $response;
+    if($status == "1"){
+      return $status;
+    }else{
+      return $response;
+    }
+    
   }
   
 

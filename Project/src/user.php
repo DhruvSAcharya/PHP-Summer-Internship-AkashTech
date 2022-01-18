@@ -9,6 +9,7 @@ class UserModel {
     public $vkey;
     public $is_verified;
     public $otp;
+    public $is_shopcreated;
     
     public function getId()
     {
@@ -112,6 +113,20 @@ class UserModel {
     public function setOtp($otp)
     {
         $this->otp = $otp;
+
+        return $this;
+    }
+
+   
+    public function getIs_shopcreated()
+    {
+        return $this->is_shopcreated;
+    }
+
+   
+    public function setIs_shopcreated($is_shopcreated)
+    {
+        $this->is_shopcreated = $is_shopcreated;
 
         return $this;
     }
