@@ -1,8 +1,8 @@
 <?php 
 
 global $myemail;
-$myemail = "ds.acharya11@gmail.com";
+$myemail = "";
 global $mypassword;
-$mypassword = 'dhruv2911';
+$mypassword = '';
 
 ?>
